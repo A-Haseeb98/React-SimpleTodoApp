@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+    /* box-sizing: border-box; */
+}
+
+.container{
+    background-color: blue;
+    width: 50%;
+    height: 90vh;
+    margin: 2% auto;
+    padding: 14px;
+    overflow: auto;
+}
+
+.todoList{
+    margin: 0%;
+    padding: 0%;
+}
+
+.todoList li{
+    background-color: darkorange;
+    list-style-type: none;
+    margin-top: 4px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
