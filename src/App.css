@@ -1,6 +1,5 @@
 body{
     background-color: aqua;
-    /* box-sizing: border-box; */
 }
 
 .container{
@@ -24,6 +23,10 @@ body{
     display: flex;
     justify-content: flex-end;
     
+}
+
+.todo{
+    flex: 2;
 }
 
 h1{
